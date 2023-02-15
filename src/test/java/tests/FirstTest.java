@@ -24,7 +24,7 @@ public class FirstTest {
     WebElement passwordField = driver.findElement(By.id("password"));
 
     loginField.sendKeys("skrmnyi");
-    passwordField.sendKeys("920625Skrmnyi!");
+    passwordField.sendKeys("**********");
 
     WebElement signInButton = driver.findElement(By.xpath("//input[@value='Sign in']"));
     signInButton.click();

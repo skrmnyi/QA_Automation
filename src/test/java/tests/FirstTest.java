@@ -45,9 +45,25 @@ public class FirstTest {
     WebElement addReadmeButton = driver.findElement(By.partialLinkText("README"));
 
     driver.quit();
+
+    /// Action tab - Xpath's
+
+    WebElement actionTab = driver.findElement(By.xpath("//div//a[@id='actions-tab']"));
+    WebElement setupWorkflowHyperlink = driver.findElement(By.xpath("//a[contains(text(),'set up a workflow')]"));
+    WebElement searchWorkflowInputField = driver.findElement(By.xpath("//input[@aria-label='Search workflows']"));
+    WebElement configureWorkflowButton = driver.findElement(By.xpath("//div/*[contains(@class,'d-flex')]/p[contains(text(),'Start with a file')]" +
+        "/parent::div/following-sibling::div/a[1]"));
+    WebElement veiwAllButtonForDeploymentSection = driver.findElement(By.xpath("//h2[contains(text(),'Deployment')]/parent::div//div[@class='my-3'][contains(text(),'View all')]"));
+
+
+
+
+
+
   }
 }
 
 
 
-/// Action tab - Xpath's
+
+

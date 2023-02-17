@@ -1,5 +1,3 @@
-package tests;
-
 import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

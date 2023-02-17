@@ -55,11 +55,6 @@ public class FirstTest {
         "/parent::div/following-sibling::div/a[1]"));
     WebElement veiwAllButtonForDeploymentSection = driver.findElement(By.xpath("//h2[contains(text(),'Deployment')]/parent::div//div[@class='my-3'][contains(text(),'View all')]"));
 
-
-
-
-
-
   }
 }
 
